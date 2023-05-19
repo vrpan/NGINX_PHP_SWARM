@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  nginx:
+    image: nginx:swarm
+    ports: 
+      - "80:80"
+    volumes:
+      - ./data/:/var/www/html/
+      - ./logs/nginx:/var/log/nginx/
+  php:
+    image: php:fpm-alpine
+    volumes:
+      - ./data/:/var/www/html/
+      - ./logs/php.log:/var/log/fpm-php.www.log

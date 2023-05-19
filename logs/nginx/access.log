@@ -1,0 +1,4 @@
+172.21.0.1 - - [19/May/2023:18:13:52 +0000] "GET / HTTP/1.1" 200 74714 "-" "curl/7.81.0" "-"
+10.0.0.2 - - [19/May/2023:18:41:58 +0000] "GET / HTTP/1.1" 200 74696 "-" "curl/7.81.0" "-"
+10.0.0.2 - - [19/May/2023:18:43:42 +0000] "GET / HTTP/1.1" 200 77334 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" "-"
+10.0.0.2 - - [19/May/2023:18:43:43 +0000] "GET /favicon.ico HTTP/1.1" 404 555 "http://127.0.0.1/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" "-"

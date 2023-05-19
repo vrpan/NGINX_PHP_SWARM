@@ -25,7 +25,11 @@ CONTAINER ID   IMAGE            COMMAND                  CREATED          STATUS
 71426ebc3d28   nginx:swarm      "/docker-entrypoint.…"   44 seconds ago   Up 42 seconds   80/tcp     test6_nginx.1.dnwiifkdvuh1uczst22j66zzo
 0b57854b8327   php:fpm-alpine   "docker-php-entrypoi…"   44 seconds ago   Up 43 seconds   9000/tcp   test6_php.1.397xr408sutfvgqrl9zsawuok
 ```
-
+### Check connectivity to app
+```
+curl 127.0.0.1
+```
+or open in browser address: [My App](http://127.0.0.1)
 ### Logs
 
 In logs folder You can find acces.log, error.log, php.log

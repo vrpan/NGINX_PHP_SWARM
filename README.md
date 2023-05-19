@@ -29,7 +29,7 @@ CONTAINER ID   IMAGE            COMMAND                  CREATED          STATUS
 ```
 curl 127.0.0.1
 ```
-or open in browser address: [My App](http://127.0.0.1)
+or open in browser address: [NGINX_PHP_SWARM](http://127.0.0.1)
 ### Logs
 
 In logs folder You can find acces.log, error.log, php.log
